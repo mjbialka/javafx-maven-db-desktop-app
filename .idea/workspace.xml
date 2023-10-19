@@ -4,43 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f2a0af-7a38-4170-aaa7-7df2683c9694" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/api/ExcelConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/api/MaterialCardSelector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/HeaterData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/HeatersList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Accesories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/ArticleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Convector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/HeaterFeatures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/HeaterTube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Pallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Radiator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Thermostat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/tables/HeaterTableView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/tables/MaterialCardTableView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/HeaterVisualization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/MaterialCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/ResultWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/SearchWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/heaterVisualization.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/materialCard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/resultWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/searchWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/css/styles.css" afterDir="false" />
+    <list default="true" id="82f2a0af-7a38-4170-aaa7-7df2683c9694" name="Changes" comment="(let's begin) Upload the Project Structure #0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/api/MaterialCardSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/api/MaterialCardSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/HeatersList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/HeatersList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Thermostat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Thermostat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +41,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/GUI/version_3_0/App"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -90,6 +60,15 @@
       <option name="presentableId" value="Default" />
       <updated>1697636381789</updated>
     </task>
+    <task id="LOCAL-00001" summary="(let's begin) Upload the Project Structure #0">
+      <option name="closed" value="true" />
+      <created>1697639345028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697639345028</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="(let's begin) Upload the Project Structure #0" />
+    <option name="LAST_COMMIT_MESSAGE" value="(let's begin) Upload the Project Structure #0" />
   </component>
 </project>
