@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="myBorderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@/css/styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.marcin.app.gui.ResultWindow">
+    <top>
+        <AnchorPane prefHeight="50.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="label2" layoutX="36.0" layoutY="30.0" text="Wynik dla grzejnika: ">
+                    <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                    </font>
+                </Label>
+                <Text fx:id="text2"
+                      layoutX="213.0" layoutY="10.0">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Text>
+                <ImageView fx:id="imageCloseButton" fitHeight="36.0" fitWidth="40.0" layoutX="546.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="26.0" fitWidth="34.0" layoutX="566.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../images/close_btn.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <TableView fx:id="tableView1" layoutX="28.0" layoutY="11.0" prefHeight="92.0" prefWidth="550.0">
+                    <columns>
+                        <TableColumn prefWidth="72.00006103515625" text="Nr Artykulu" />
+                        <TableColumn prefWidth="123.2000732421875" text="Grzalka" />
+                        <TableColumn prefWidth="135.20001220703125" text="Radiator" />
+                        <TableColumn prefWidth="225.60003662109375" text="Termostat" />
+                    </columns>
+                </TableView>
+                <Label fx:id="labe3" layoutX="28.0" layoutY="118.0" prefHeight="23.0" prefWidth="70.0" text="Konwektor" />
+                <Text fx:id="text3" layoutX="113.0" layoutY="117.0" />
+            </children>
+        </AnchorPane>
+    </center>
+    <bottom>
+        <AnchorPane prefHeight="198.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <children>
+                <TableView fx:id="tableView2" layoutX="28.0" layoutY="-1.0" prefHeight="135.0" prefWidth="550.0">
+                    <columns>
+                        <TableColumn prefWidth="110.4000244140625" text="Akcesoria" />
+                        <TableColumn prefWidth="204.79998779296875" text="Paleta" />
+                        <TableColumn prefWidth="236.00006103515625" text="Wyposazenie" />
+                    </columns>
+                </TableView>
+                <ButtonBar layoutX="7.0" layoutY="151.0" prefHeight="40.0" prefWidth="572.0">
+                    <buttons>
+                        <Button fx:id="button1" layoutX="486.0" layoutY="17.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="235.0" text="Wizualizacja" />
+                        <Button fx:id="button2" mnemonicParsing="false" text="Home" />
+                        <Button fx:id="button3" layoutX="486.0" layoutY="17.0" mnemonicParsing="false" text="Karta materiałowa" />
+                    </buttons>
+                </ButtonBar>
+            </children>
+        </AnchorPane>
+    </bottom>
+</BorderPane>
