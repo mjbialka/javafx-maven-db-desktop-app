@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82f2a0af-7a38-4170-aaa7-7df2683c9694" name="Changes" comment="App - Upload  #1&#10;uploaded:&#10;HeatersList class version 3.0&#10;MaterialCardSelector class version 3.0&#10;Thermostat class version 3.0">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/resultWindow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/searchWindow.fxml" afterDir="false" />
+    <list default="true" id="82f2a0af-7a38-4170-aaa7-7df2683c9694" name="Changes" comment="App - Upload  gui #2&#10;uploaded:&#10;SearchWindow class version 1.0&#10;ResultWindow class version 1.0&#10;Main class version 2.0">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/api/SelectedHeater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/misc/ScreenBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Convector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/materials/Convector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/api/ExcelConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/api/ExcelConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/HeaterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/database/HeaterData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/ResultWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/ResultWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/SearchWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marcin/app/gui/SearchWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/marcin/app/heaterVisualization.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/heaterVisualization.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/marcin/app/materialCard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/materialCard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/marcin/app/resultWindow.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/marcin/app/searchWindow.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/resultWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/resultWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/searchWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/marcin/app/gui/searchWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/main_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/images/main_icon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -45,15 +45,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/GUI/version1_1_0/demo1&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/GUI/version_3_0/5ver/javafx-maven-db-desktop-app"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\GUI\version_3_0\App\src\main\resources\com\marcin\app\gui" />
@@ -109,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697729272193</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="App - Upload  gui #2&#10;uploaded:&#10;SearchWindow class version 1.0&#10;ResultWindow class version 1.0&#10;Main class version 2.0">
+      <option name="closed" value="true" />
+      <created>1697965117625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697965117625</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="(let's begin) Upload the Project Structure #0" />
     <MESSAGE value="App - Upload  #1&#10;uploaded:&#10;HeatersList class version 3.0&#10;MaterialCardSelector class version 3.0&#10;Thermostat class version 3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="App - Upload  #1&#10;uploaded:&#10;HeatersList class version 3.0&#10;MaterialCardSelector class version 3.0&#10;Thermostat class version 3.0" />
+    <MESSAGE value="App - Upload  gui #2&#10;uploaded:&#10;SearchWindow class version 1.0&#10;ResultWindow class version 1.0&#10;Main class version 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="App - Upload  gui #2&#10;uploaded:&#10;SearchWindow class version 1.0&#10;ResultWindow class version 1.0&#10;Main class version 2.0" />
   </component>
 </project>

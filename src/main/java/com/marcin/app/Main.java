@@ -1,30 +1,37 @@
 package com.marcin.app;
 
 import com.marcin.app.gui.SearchWindow;
+import com.marcin.app.misc.ScreenBuilder;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
-import java.util.Objects;
+import java.io.IOException;
+
 
 
 public class Main extends Application {
 
     @Override
     public void start(Stage stage) {
-        stage.initStyle(StageStyle.UNDECORATED);
-        System.setProperty("javafx.cachedir", System.getProperty("user.dir") + "/javafx_cache");
 
-        // Inicjalizacja okna SearchWindow
-        SearchWindow searchWindow = new SearchWindow(stage);
+        stage.initStyle(StageStyle.TRANSPARENT);
 
-        String css = Objects.requireNonNull(this.getClass().getResource("Styles.css")).toExternalForm();
-        Scene searchScene = searchWindow.getSearchWindow();
-        searchScene.getStylesheets().add(css);
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/marcin/app/gui/searchWindow.fxml"));
+        try {
+            Parent parent = fxmlLoader.load();
+            SearchWindow searchController = fxmlLoader.getController();
+            searchController.initialize(stage);
+            Scene scene= ScreenBuilder.adjustScreen(stage,parent);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
 
-        stage.setScene(searchScene);
-        stage.show();
     }
 
     public static void main(String[] args) {

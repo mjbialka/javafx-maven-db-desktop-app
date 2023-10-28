@@ -1,3 +1,10 @@
-#myBorderPane {
--fx-background-color: rgba(50, 168, 80);
+.myStage{
+    -fx-background-radius: 20;
+}
+.myBorderPane {
+-fx-background-color: rgba(213, 245, 232);
+    -fx-background-radius: 20;
+}
+.myListView{
+    -fx-background-color:transparent;
 }
